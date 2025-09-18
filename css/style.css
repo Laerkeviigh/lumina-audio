@@ -571,24 +571,6 @@ html { scroll-behavior: smooth; }
   font-family: sans-serif;
 }
 
-/* Top features */
-.footer-top {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  margin-bottom: 40px;
-}
-
-.footer-top h4 {
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-.footer-top p {
-  font-size: 14px;
-  line-height: 1.5;
-}
-
 /* Nyhedsbrev */
 .footer-newsletter {
   text-align: center;
@@ -646,6 +628,26 @@ html { scroll-behavior: smooth; }
   background: #d88787;
   
 }
+
+
+/* Top features */
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.footer-top h4 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.footer-top p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 
 /* Bottom section */
 .footer-bottom {
