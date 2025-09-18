@@ -225,9 +225,7 @@ html { scroll-behavior: smooth; }
 
 
 /* BESTSELLERS sektion */
-.bestsellers{
-  background: linear-gradient(180deg, rgba(255,162,162,0.35), rgba(255,162,162,0.12));
-}
+
 
 .bestsellers h2{
   font-size: 40px;
@@ -243,7 +241,7 @@ html { scroll-behavior: smooth; }
 }
 
 .card {
-  background: #fff;
+  background: linear-gradient(135deg, #fdfdfb, #f6f1ec);
   border-radius: 24px;
   padding: 20px;
   text-align: center;
@@ -262,7 +260,7 @@ html { scroll-behavior: smooth; }
   object-fit: contain; 
   object-position: center;
   border-radius: 18px;
-  background:#f3f3f3;
+  background: linear-gradient(135deg, #fdfdfb, #f6f1ec);
   padding: 20px;
 }
 
