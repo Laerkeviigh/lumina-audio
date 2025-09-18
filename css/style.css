@@ -291,6 +291,7 @@ html { scroll-behavior: smooth; }
   display: flex;
   align-items: center;
   gap: 60px; 
+  border-radius: 30px;
   padding: 80px 20px; 
   background: #f9f5f2; 
 }
