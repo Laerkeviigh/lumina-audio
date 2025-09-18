@@ -225,8 +225,6 @@ html { scroll-behavior: smooth; }
 
 
 /* BESTSELLERS sektion */
-
-
 .bestsellers h2{
   font-size: 40px;
   margin-bottom: 20px;
@@ -237,7 +235,6 @@ html { scroll-behavior: smooth; }
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 32px;  
-  align-items: stretch;  
 }
 
 .card {
@@ -255,19 +252,14 @@ html { scroll-behavior: smooth; }
 }
 
 .card img{
-  width:100%; 
   height: 300px; 
   object-fit: contain; 
   object-position: center;
-  border-radius: 18px;
-  background: linear-gradient(135deg, #fdfdfb, #f6f1ec);
-  padding: 20px;
 }
 
 .card h3 {
   margin: 16px 0 4px;
   font-size: 18px;
-  font-weight: 700;
   color: #1a1a1a;
 }
 
