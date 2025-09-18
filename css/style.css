@@ -21,6 +21,13 @@ body {
 }
 
 /* Header med logo og navigation */
+
+header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(6px);
+}
+
 header {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
@@ -189,7 +196,6 @@ html { scroll-behavior: smooth; }
   width: min(1100px, 92%);
   margin: 0 auto;
 }
-
 
 
 /* USP sektion */
@@ -706,6 +712,13 @@ html { scroll-behavior: smooth; }
 .footer-socials img {
   width: 20px;
   height: 20px;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  margin-top: 20px;
 }
 
 /* Tilbage til toppen knap */
