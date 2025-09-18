@@ -433,33 +433,54 @@ html { scroll-behavior: smooth; }
 
 
 /* INSTAGRAM sektion */
-.instagram h2 {
+
+
+.instagram {
+  padding: 60px 40px;
+  background: #bebebe; 
   text-align: center;
-  margin-bottom: 24px;
 }
+
+.instagram h2 {
+  font-size: 2rem;
+  margin-bottom: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
 .insta-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
 .insta-grid img {
   width: 100%;
-  border-radius: 16px;
+  height: 280px;
   object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
-/* RESPONSIVT */
-@media (max-width: 900px) {
-  .showcase-inner,
-  .about-inner {
-    flex-direction: column;
-    text-align: center;
-  }
-  .insta-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.insta-grid img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
 }
+
+/* Ekstra separation mod næste sektion */
+
+.instagram::after {
+  content: "";
+  display: block;
+  margin: 50px auto 0;
+  width: 80px;
+  height: 4px;
+  background: #ffffff; 
+  border-radius: 2px;
+}
+
 
 
 /* FAQ sektion */
